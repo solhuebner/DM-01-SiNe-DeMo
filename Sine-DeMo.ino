@@ -10,7 +10,6 @@
 
 #include <EEPROM.h>
 #include "bitmaps.h"
-#include "letters.h"
 
 Arduboy arduboy;
 
