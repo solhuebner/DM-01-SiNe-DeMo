@@ -19,8 +19,6 @@ int c = 129;
 
 void setup() {
   arduboy.start();
-  arduboy.setFrameRate(60);
-  
   arduboy.clearDisplay();
   arduboy.display();
 }
