@@ -70,133 +70,122 @@ const unsigned char PROGMEM JO3RI [] = {
 };
 
 const unsigned char PROGMEM LetterH[] = {
-  B11111111,
-  B11111111,
-  B00011000,
-  B00011000,
-  B00011000,
-  B11111111,
-  B11111111,
-  B00000000
+  0xFF,
+  0xFF,
+  0x18,
+  0x18,
+  0x18,
+  0xFF,
+  0xFF,
+  0x00
 };
-
 const unsigned char PROGMEM LetterE[] = {
-  B11111111,
-  B11111111,
-  B11011011,
-  B11011011,
-  B11011011,
-  B11000011,
-  B11000011,
-  B00000000
+  0xFF,
+  0xFF,
+  0xDB,
+  0xDB,
+  0xDB,
+  0xC3,
+  0xC3,
+  0x00
 };
-
 const unsigned char PROGMEM LetterL[] = {
-  B11111111,
-  B11111111,
-  B11000000,
-  B11000000,
-  B11000000,
-  B11000000,
-  B11000000,
-  B00000000
+  0xFF,
+  0xFF,
+  0xC0,
+  0xC0,
+  0xC0,
+  0xC0,
+  0xC0,
+  0x00
 };
-
 const unsigned char PROGMEM LetterO[] = {
-  B11111111,
-  B11111111,
-  B11000011,
-  B11000011,
-  B11000011,
-  B11111111,
-  B11111111,
-  B00000000
+  0xFF,
+  0xFF,
+  0xC3,
+  0xC3,
+  0xC3,
+  0xFF,
+  0xFF,
+  0x00
 };
-
 const unsigned char PROGMEM Letter[] = {
-  B00000000,
-  B00000000,
-  B00000000,
-  B00000000,
-  B00000000,
-  B00000000,
-  B00000000,
-  B00000000
+  0x00,
+  0x00,
+  0x00,
+  0x00,
+  0x00,
+  0x00,
+  0x00,
+  0x00
 };
-
 const unsigned char PROGMEM LetterG[] = {
-  B11111111,
-  B11111111,
-  B11000011,
-  B11010011,
-  B11010011,
-  B11110011,
-  B11110011,
-  B00000000 
+  0xFF,
+  0xFF,
+  0xC3,
+  0xD3,
+  0xD3,
+  0xF3,
+  0xF3,
+  0x00 
 };
-
 const unsigned char PROGMEM LetterA[] = {
-  B11111000,
-  B11111110,
-  B00110111,
-  B00110011,
-  B00110111,
-  B11111110,
-  B11111000,
-  B00000000
+  0xF8,
+  0xFE,
+  0x37,
+  0x33,
+  0x37,
+  0xFE,
+  0xF8,
+  0x00
 };
-
 const unsigned char PROGMEM LetterR[] = {
-  B11111111,
-  B11111111,
-  B00001001,
-  B00001001,
-  B00011001,
-  B11111111,
-  B11110110,
-  B00000000
+  0xFF,
+  0xFF,
+  0x09,
+  0x09,
+  0x19,
+  0xFF,
+  0xF6,
+  0x00
 };
-
 const unsigned char PROGMEM LetterB[] = {
-  B11111111,
-  B11111111,
-  B11001001,
-  B11001001,
-  B11001001,
-  B11111111,
-  B01110110,
-  B00000000
+  0xFF,
+  0xFF,
+  0xC9,
+  0xC9,
+  0xC9,
+  0xFF,
+  0x76,
+  0x00
 };
-
 const unsigned char PROGMEM LetterY[] = {
-  B00001111,
-  B00011111,
-  B11011000,
-  B11011000,
-  B11011000,
-  B11111111,
-  B11111111,
-  B00000000
+  0x0F,
+  0x1F,
+  0xD8,
+  0xD8,
+  0xD8,
+  0xFF,
+  0xFF,
+  0x00
 };
-
 const unsigned char PROGMEM LetterD[] = {
-  B11111111,
-  B11111111,
-  B11000001,
-  B11000001,
-  B11000001,
-  B11111111,
-  B01111110,
-  B00000000
+  0xFF,
+  0xFF,
+  0xC1,
+  0xC1,
+  0xC1,
+  0xFF,
+  0x7E,
+  0x00
 };
-
 const unsigned char PROGMEM LetterU[] = {
-  B01111111,
-  B11111111,
-  B11000000,
-  B11000000,
-  B11000000,
-  B11111111,
-  B01111111,
-  B00000000
+  0x7F,
+  0xFF,
+  0xC0,
+  0xC0,
+  0xC0,
+  0xFF,
+  0x7F,
+  0x00
 };
