@@ -52,7 +52,7 @@ void setup() {
   arduboy.drawBitmap(18, 4, presents, 92, 24, WHITE);
 
   //SiNe-DeMo
-  arduboy.drawBitmap(1, 36, sineDemo, 126, 24, WHITE);
+  arduboy.drawBitmap(0, 36, sineDemo, 128, 24, WHITE);
   arduboy.display();
   delay(3000);
   arduboy.clearDisplay();
