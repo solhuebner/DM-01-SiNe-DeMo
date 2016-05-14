@@ -1,11 +1,16 @@
-// This is the SiNe-DeMo created for Arduboy
-// it started on Thursday 11 june 2015
-// contributers are:
-// JO3RI http://www.JO3RI.be
-//
+/*
+ DEMO: siNe DeMo
+
+ TEAM a.r.g.: http://www.team-arg.com/demos.html
+
+ 2015 - JO3RI
+
+ Demo License: MIT : https://opensource.org/licenses/MIT
+
+ */
 
 // All of this could have been done with precaculated values
-// even with bitmaps, but what is the funin that. I wanted to see
+// even with bitmaps, but what is the fun in that. I wanted to see
 // how fast the demo can run with pure calculation.
 
 
