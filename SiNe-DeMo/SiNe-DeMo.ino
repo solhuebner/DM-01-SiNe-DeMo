@@ -11,10 +11,7 @@
 
 
 
-#include <SPI.h>
-#include "Arduboy.h"
-
-#include <EEPROM.h>
+#include "Arglib.h"
 #include "bitmaps.h"
 
 Arduboy arduboy;
@@ -29,50 +26,44 @@ void setup() {
   arduboy.start();
   arduboy.clearDisplay();
   arduboy.display();
-  
+
   // first we'll show some bitmaps
   //______________________________
-  
+
   // JO3RI Logo
-  arduboy.drawBitmap(20, 4, JO3RI, 88, 56, 1);
-  arduboy.display();
-  delay(3000);
-  arduboy.clearDisplay();
-  
-  //double the text height
-  arduboy.setTextSize(2);
-  
-  //member
-  arduboy.setCursor(10, 25);
-  arduboy.print("Member of");
+  arduboy.drawBitmap(20, 4, JO3RI, 88, 56, WHITE);
   arduboy.display();
   delay(1500);
   arduboy.clearDisplay();
-  
-  // TEAM a.r.g. Logo
-  arduboy.drawBitmap(14, 16, TEAMarg, 96, 32, 1);
+
+  //member
+  arduboy.drawBitmap(3, 16, memberOf, 122, 32, WHITE);
   arduboy.display();
-  delay(3000);
+  delay(1500);
   arduboy.clearDisplay();
-  
+
+  // TEAM a.r.g. Logo
+  arduboy.drawBitmap(0, 8, TEAMarg, 128, 48, WHITE);
+  arduboy.display();
+  delay(1500);
+  arduboy.clearDisplay();
+
   //presents
-  arduboy.setCursor(10, 10);
-  arduboy.print("Presents:");
-  
+  arduboy.drawBitmap(18, 4, presents, 92, 24, WHITE);
+
   //SiNe-DeMo
-  arduboy.setCursor(10, 35);
-  arduboy.print("SiNe-DeMo");
-  arduboy.display();  
+  arduboy.drawBitmap(1, 36, sineDemo, 126, 24, WHITE);
+  arduboy.display();
   delay(3000);
   arduboy.clearDisplay();
 }
 
 void loop() {
-  
+
   float p = 2 * sin(d);
   float q = 2 * sin(-d);
   arduboy.clearDisplay();
-  
+
   for (byte k = 2; k < 15; k++) {
     // some calculations are used multiple times
     // so better caclutate them once and reuse
