@@ -1,4 +1,4 @@
-# SiNe-DeMo
+# SiNe DeMo
 ![Image]
 (http://www.team-arg.org/images/demos/sineDemo.gif)
 
