@@ -1,13 +1,13 @@
 /*
- DEMO: siNe DeMo
+  DEMO: siNe DeMo
 
- TEAM a.r.g.: http://www.team-arg.com/demos.html
+  TEAM a.r.g.: http://www.team-arg.com/demos.html
 
- 2015 - JO3RI
+  2015 - JO3RI
 
- Demo License: MIT : https://opensource.org/licenses/MIT
+  Demo License: MIT : https://opensource.org/licenses/MIT
 
- */
+*/
 
 // All of this could have been done with precaculated values
 // even with bitmaps, but what is the fun in that. I wanted to see
