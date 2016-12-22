@@ -16,10 +16,11 @@
 
 
 
-#include "Arglib.h"
+#include <Arduino.h>
+#include <Arduboy2.h>
 #include "bitmaps.h"
 
-Arduboy arduboy;
+Arduboy2Base arduboy;
 
 int i = 0;
 float d = 0.0;
@@ -28,8 +29,8 @@ int c = 129;
 void setup() {
   // Cleanup the display
   //______________________________
-  arduboy.start();
-  arduboy.clearDisplay();
+  arduboy.begin();
+  arduboy.clear();
   arduboy.display();
 
   // first we'll show some bitmaps
@@ -39,19 +40,19 @@ void setup() {
   arduboy.drawBitmap(20, 4, JO3RI, 88, 56, WHITE);
   arduboy.display();
   delay(1500);
-  arduboy.clearDisplay();
+  arduboy.clear();
 
   //member
   arduboy.drawBitmap(3, 16, memberOf, 122, 32, WHITE);
   arduboy.display();
   delay(1500);
-  arduboy.clearDisplay();
+  arduboy.clear();
 
   // TEAM a.r.g. Logo
   arduboy.drawBitmap(0, 8, TEAMarg, 128, 48, WHITE);
   arduboy.display();
   delay(1500);
-  arduboy.clearDisplay();
+  arduboy.clear();
 
   //presents
   arduboy.drawBitmap(18, 4, presents, 92, 24, WHITE);
@@ -60,14 +61,14 @@ void setup() {
   arduboy.drawBitmap(0, 36, sineDemo, 128, 24, WHITE);
   arduboy.display();
   delay(3000);
-  arduboy.clearDisplay();
+  arduboy.clear();
 }
 
 void loop() {
 
   float p = 2 * sin(d);
   float q = 2 * sin(-d);
-  arduboy.clearDisplay();
+  arduboy.clear();
 
   for (byte k = 2; k < 15; k++) {
     // some calculations are used multiple times
