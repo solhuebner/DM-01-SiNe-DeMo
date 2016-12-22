@@ -49,7 +49,7 @@ void setup() {
   arduboy.clear();
 
   // TEAM a.r.g. Logo
-  arduboy.drawBitmap(0, 8, TEAMarg, 128, 48, WHITE);
+  arduboy.drawBitmap(34, 4, T_arg, 60, 56, WHITE);
   arduboy.display();
   delay(1500);
   arduboy.clear();
